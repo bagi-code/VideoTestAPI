@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/daftar_barang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bagicode.testapi.DaftarMahasiswa">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listMhsMhs"
+        android:padding="6dp"
+        android:clipToPadding="false"
+        android:scrollbars="none"
+        android:visibility="gone"/>
+
+    <include layout="@layout/loading_and_result"/>
+
+
+</RelativeLayout>
